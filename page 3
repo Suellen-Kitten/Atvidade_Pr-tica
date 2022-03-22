@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>3. Desenvolva as 3 tabelas abaixo em um único arquivo HTML:</h2>
+
     <!--Tabela 1-->
     <br>
     <table>
@@ -81,6 +83,9 @@
             <td>Trombone4</td>
         </tr>
     </table>
-    
+    <br>
+
+    <a href="Page1.html"><h6>parte 1</h6></a>
+    <br>
 </body>
 </html>
