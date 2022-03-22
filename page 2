@@ -11,7 +11,7 @@
 <body>
     <br>
     
-    <h1>Crie uma página HTML contendo uma tabela que represente o layout de um site, bem como na imagem abaixo:</h1>
+    <h2>2. Crie uma página HTML contendo uma tabela que represente o layout de um site, bem como na imagem abaixo:</h2>
     <br>
     
     <table>
@@ -32,8 +32,10 @@
             </tr>
         </tfoot>
     </table>
-
-
     <br>
+
+    <a href="Page3.html"><h6>parte 3</h6></a>
+    <br>
+
 </body>
 </html>
