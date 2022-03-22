@@ -1,0 +1,24 @@
+<br>
+
+    <h1>Crie uma página HTML contendo uma tabela que represente o layout de um site, bem como na imagem abaixo:</h1>
+    <br>
+
+    <table>
+       <tr>
+           <td>TOPO</td>
+           <td>TOPO</td>
+           <td>TOPO</td>
+       </tr>
+       <tr>
+           <td>MENU</td>
+           <td>CONTEÚDO</td>
+           <td>CONTEÚDO</td>
+       </tr>
+       </tbody>
+         <tfoot>
+             <td>RODAPÉ</td>
+             <td>RODAPÉ</td>
+             <td>RODAPÉ</td>
+         </tfoot>
+    </table>
+    <br>
