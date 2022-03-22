@@ -1,0 +1,109 @@
+<h1>3. Desenvolva as 3 tabelas abaixo em um único arquivo HTML:</h1>
+    <br>
+
+    <table>
+       <thead>
+         <tr>
+             <th>titulo 1</th>
+             <th>titulo 2</th>
+             <th>titulo 3</th>
+         </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>1</td>
+       </tr>
+       <tr>
+           <td>4</td>
+           <td>5</td>
+           <td>6</td>
+       </tr>
+       </tbody>
+         <tfoot>
+             <td>7</td>
+             <td>8</td>
+             <td>9</td>
+         </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+       <thead>
+         <tr>
+             <th>titulo 1</th>
+             <th>titulo 2</th>
+             <th>titulo 3</th>
+         </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td></td>
+           <td>2</td>
+           <td>3</td>
+       </tr>
+       <tr>
+           <td></td>
+           <td>5</td>
+           <td>6</td>
+       </tr>
+       </tbody>
+         <tfoot>
+             <td></td>
+             <td>8</td>
+             <td>9</td>
+         </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+       <thead>
+         <tr>
+             <th>titulo 1</th>
+             <th>titulo 2</th>
+             <th>titulo 3</th>
+             <th>titulo 1</th>
+             <th>titulo 2</th>
+         </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+       </tr>
+       <tr>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+       </tr>
+       </tbody>
+       <tr>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+       </tr>
+       </tbody>
+       <tr>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+           <td>_</td>
+       </tr>
+       </tbody>
+         <tfoot>
+             <td>_</td>
+             <td>_</td>
+             <td>_</td>
+             <td>_</td>
+             <td>_</td>
+         </tfoot>
+    </table>
