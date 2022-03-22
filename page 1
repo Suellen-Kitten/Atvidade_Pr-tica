@@ -1,77 +1,88 @@
-<h1>1. Crie uma página HTML contendo as seguintes tabelas:</h1>
-    <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
 
-<!--     tabela 1 -->
-    <table>
-       <thead>
-         <tr>
-             <th>Quadrado 1</th>
-             <th>Quadrado 2</th>
-             <th>Quadrado 3</th>
-         </tr>
-       </thead>
-       <tbody>
-       <tr>
-           <td>Quadrado 4</td>
-           <td>Quadrado 5</td>
-           <td>Quadrado 6</td>
-       </tr>
-         <tfoot>
-             <td>Quadrado 7</td>
-             <td>Quadrado 8</td>
-             <td>Quadrado 9</td>
-         </tfoot>
-    </table>
     <br>
-
-<!--     tabela 2 -->
-    <table>
-       <thead>
-         <tr>
-             <th>Quadrado 1</th>
-             <th>Quadrado 2</th>
-             <th>Quadrado 3</th>
-         </tr>
-       </thead>
-       <tbody>
-       <tr>
-           <td>Quadrado 4</td>
-           <td>Quadrado 4</td>
-           <td>Quadrado 4</td>
-       </tr>
-       </tbody>
-         <tfoot>
-           <td>Quadrado 7</td>
-           <td>Quadrado 8</td>
-           <td>Quadrado 9</td>
-         </tfoot>
-    </table>
+    <h1>ps: apagar "título"</h1>
     <br>
+    <h2>1. Crie uma página HTML contendo as seguintes tabelas:</h1>
+        <br>
+    
+        <!--     tabela 1 -->
+        <table>
+            <tbody>
+                <tr>
+                    <td>Quadrado 1</td>
+                    <td>Quadrado 2</td>
+                    <td>Quadrado 3</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Quadrado 4</td>
+                    <td>Quadrado 5</td>
+                    <td>Quadrado 6</td>
+                </tr>
+            <tfoot>
+                <td>Quadrado 7</td>
+                <td>Quadrado 8</td>
+                <td>Quadrado 9</td>
+            </tfoot>
+        </table>
+        <br>
+    
+        <!--     tabela 2 -->
+        <table>
+            <tbody>
+                <tr>
+                    <td>Quadrado 1</td>
+                    <td>Quadrado 2</td>
+                    <td>Quadrado 3</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td colspan="4">Quadrado 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Quadrado 7</td>
+                    <td>Quadrado 8</td>
+                    <td>Quadrado 9</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+    
+        <!--     tabela 3 -->
 
-<!--     tabela 3 -->
-    <table>
-       <thead>
-         <tr>
-             <th>titulo 1</th>
-             <th>titulo 2</th>
-             <th>titulo 3</th>
-         </tr>
-       </thead>
-       <tbody>
-       <tr>
-           <td>Quadrado 1</td>
-           <td>Quadrado 2</td>
-           <td>Quadrado 3</td>
-       </tr>
-       <tr>
-           <td>Quadrado 4</td>
-           <td>Quadrado 4</td>
-           <td>Quadrado 3</td>
-       </tr>
-       </tbody>
-         <tfoot>
-             <td>Quadrado 5</td>
-             <td>Quadrado 6</td>
-             <td>Quadrado 3</td>
-         </tfoot>
-    </table>
+        <table>
+            <tbody>
+                <tr>
+                    
+                    <td>Quadrado 1</td>
+                    <td>Quadrado 2</td>
+                    <td rowspan="3">Quadrado 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Quadrado 4</td>
+                </tr>
+                <tr>
+                    <td>Quadrado 5</td>
+                    <td>Quadrado 6</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <br>
+    
+</body>
+</html>
