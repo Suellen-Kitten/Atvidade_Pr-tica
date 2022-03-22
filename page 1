@@ -10,8 +10,6 @@
 <body>
 
     <br>
-    <h1>ps: apagar "título"</h1>
-    <br>
     <h2>1. Crie uma página HTML contendo as seguintes tabelas:</h1>
         <br>
     
@@ -81,7 +79,9 @@
                 </tr>
             </tbody>
         </table>
-        
+        <br>
+
+        <a href="Page2.html"><h6>parte 2</h6></a>
         <br>
     
 </body>
