@@ -1,24 +1,39 @@
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
 
+<body>
+    <br>
+    
     <h1>Crie uma página HTML contendo uma tabela que represente o layout de um site, bem como na imagem abaixo:</h1>
     <br>
-
+    
     <table>
-       <tr>
-           <td>TOPO</td>
-           <td>TOPO</td>
-           <td>TOPO</td>
-       </tr>
-       <tr>
-           <td>MENU</td>
-           <td>CONTEÚDO</td>
-           <td>CONTEÚDO</td>
-       </tr>
-       </tbody>
-         <tfoot>
-             <td>RODAPÉ</td>
-             <td>RODAPÉ</td>
-             <td>RODAPÉ</td>
-         </tfoot>
+        <thead>
+            <tr>
+                <th colspan="4">TOPO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="1">MENU</td>
+                <td>CONTEUDO</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">RODAPÉ</th>
+            </tr>
+        </tfoot>
     </table>
+
+
     <br>
+</body>
+</html>
