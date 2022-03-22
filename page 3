@@ -1,109 +1,86 @@
-<h1>3. Desenvolva as 3 tabelas abaixo em um único arquivo HTML:</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <!--Tabela 1-->
     <br>
-
     <table>
-       <thead>
-         <tr>
-             <th>titulo 1</th>
-             <th>titulo 2</th>
-             <th>titulo 3</th>
-         </tr>
-       </thead>
-       <tbody>
-       <tr>
-           <td>1</td>
-       </tr>
-       <tr>
-           <td>4</td>
-           <td>5</td>
-           <td>6</td>
-       </tr>
-       </tbody>
-         <tfoot>
-             <td>7</td>
-             <td>8</td>
-             <td>9</td>
-         </tfoot>
+        <thead>
+            <tr>
+                <td colspan="4">TOPO</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>quad 1</td>
+                <td>quad 2</td>
+                <td>quad 3</td>
+            </tr>
+            <tr>
+                <td>quad 1</td>
+                <td>quad 2</td>
+                <td>quad 3</td>
+            </tr>
+        </tbody>
     </table>
 
+    <!--Tabela 2-->
     <br>
-
     <table>
-       <thead>
-         <tr>
-             <th>titulo 1</th>
-             <th>titulo 2</th>
-             <th>titulo 3</th>
-         </tr>
-       </thead>
-       <tbody>
-       <tr>
-           <td></td>
-           <td>2</td>
-           <td>3</td>
-       </tr>
-       <tr>
-           <td></td>
-           <td>5</td>
-           <td>6</td>
-       </tr>
-       </tbody>
-         <tfoot>
-             <td></td>
-             <td>8</td>
-             <td>9</td>
-         </tfoot>
+                
+        <tbody>
+            <tr>
+                <td rowspan="3">Col</td>
+                <td>quad 1</td>
+                <td>quad 2</td>
+            </tr>
+            <tr>
+                <td>quad 1</td>
+                <td>quad 2</td>
+            </tr>
+            <tr>
+                <td>quad 1</td>
+                <td>quad 2</td>
+            </tr>
+        </tbody>
+
     </table>
 
+    <!--Tabela 3-->
     <br>
-
     <table>
-       <thead>
-         <tr>
-             <th>titulo 1</th>
-             <th>titulo 2</th>
-             <th>titulo 3</th>
-             <th>titulo 1</th>
-             <th>titulo 2</th>
-         </tr>
-       </thead>
-       <tbody>
-       <tr>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-       </tr>
-       <tr>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-       </tr>
-       </tbody>
-       <tr>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-       </tr>
-       </tbody>
-       <tr>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-           <td>_</td>
-       </tr>
-       </tbody>
-         <tfoot>
-             <td>_</td>
-             <td>_</td>
-             <td>_</td>
-             <td>_</td>
-             <td>_</td>
-         </tfoot>
+        <tr>
+            <td colspan="5">TOPO</td>
+        </tr>
+        <tr>
+            <td rowspan="4">coluna</td>
+            <td>Trombone1</td>
+            <td>Trompete2</td>
+            <td>Trombone3</td>
+            <td>Trombone4</td>
+        </tr>
+        <tr>
+            <td>Trombone1</td>
+            <td>Trompete2</td>
+            <td rowspan="2">col</td>
+            <td>Trombone4</td>
+        </tr>
+        <tr>
+            <td>Trombone1</td>
+            <td>Trompete2</td>
+            <td>Trombone4</td>
+        </tr>
+        <tr>
+            <td colspan="3">MINIRODAPE</td>
+            <td>Trombone4</td>
+        </tr>
     </table>
+    
+</body>
+</html>
